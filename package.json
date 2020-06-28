@@ -1,11 +1,21 @@
 {
   "name": "batch-geocoding-react",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Batch address geocoding",
+  "keywords": [
+    "react",
+    "javascript",
+    "geocoding",
+    "map",
+    "latitude",
+    "longitude"
+  ],
   "main": "src/index.js",
   "dependencies": {
-    "react": "16.12.0",
+    "axios": "0.19.2",
+    "react": "16.13.1",
+    "react-csv": "2.0.3",
+    "react-datasheet": "1.4.4",
     "react-dom": "16.12.0",
     "react-scripts": "3.0.1"
   },
@@ -18,10 +28,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
