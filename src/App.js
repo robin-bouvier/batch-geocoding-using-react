@@ -90,28 +90,6 @@ export default function App() {
       });
   }
 
-  const sheetRenderer = props => {
-    return (
-      <SheetRenderer
-        columns={columns}
-        as="table"
-        headerAs="thead"
-        bodyAs="tbody"
-        rowAs="tr"
-        cellAs="th"
-        {...props}
-      />
-    );
-  };
-
-  const rowRenderer = props => {
-    return <RowRenderer as="tr" cellAs="td" className="data-row" {...props} />;
-  };
-
-  const cellRenderer = props => {
-    return <CellRenderer as="td" columns={columns} {...props} />;
-  };
-
   const downloadCSV = event => {
     csvLink.current.link.click();
   };
@@ -142,11 +120,12 @@ export default function App() {
           </label>
           <input
             id="appkey"
+            name="appkey"
             className="appkey flex-grow-1"
             placeholder="App Key"
             onChange={e => handleAppkeyChange(e)}
             value={appKey}
-            type="text"
+            type="input"
           />
         </div>
 
@@ -155,9 +134,15 @@ export default function App() {
             <ReactDataSheet
               data={grid}
               className="custom-sheet"
-              sheetRenderer={sheetRenderer}
-              rowRenderer={rowRenderer}
-              cellRenderer={cellRenderer}
+              sheetRenderer={props => (
+                <SheetRenderer columns={columns} {...props} />
+              )}
+              rowRenderer={props => (
+                <RowRenderer className="data-row" {...props} />
+              )}
+              cellRenderer={props => (
+                <CellRenderer columns={columns} {...props} />
+              )}
               onCellsChanged={handleCellsChanged}
               valueRenderer={cell => cell.value}
             />

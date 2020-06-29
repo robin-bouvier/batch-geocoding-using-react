@@ -1,19 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const RowRenderer = props => {
-    const { as: TR, cellAs: TD, className, row} = props
-    return (
-      <TR className={className}>
-        <TD className='action-cell cell'>
-          <input
-            type='text'
-            disabled
-            value={row + 1}
-          />
-        </TD>
-        {props.children}
-      </TR>
-    )
-  }
+  const { className, row } = props;
+  return (
+    <tr className={className}>
+      <td className="action-cell cell">
+        <input type="text" disabled value={row + 1} />
+      </td>
+      {props.children}
+    </tr>
+  );
+};
 
-  export default RowRenderer
+export default RowRenderer;
