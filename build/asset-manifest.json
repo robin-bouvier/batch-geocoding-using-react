@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.e1330ebc.chunk.js",
-    "main.js.map": "/static/js/main.e1330ebc.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.8f3cb0f3.chunk.css": "/static/css/2.8f3cb0f3.chunk.css",
-    "static/js/2.7a1b8180.chunk.js": "/static/js/2.7a1b8180.chunk.js",
-    "static/js/2.7a1b8180.chunk.js.map": "/static/js/2.7a1b8180.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3e40d44826ec1627f4f7d674e076c5ea.js": "/precache-manifest.3e40d44826ec1627f4f7d674e076c5ea.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.8f3cb0f3.chunk.css.map": "/static/css/2.8f3cb0f3.chunk.css.map"
+    "main.js": "/batch-geocoding-using-react/static/js/main.e1330ebc.chunk.js",
+    "main.js.map": "/batch-geocoding-using-react/static/js/main.e1330ebc.chunk.js.map",
+    "runtime~main.js": "/batch-geocoding-using-react/static/js/runtime~main.59d26c9b.js",
+    "runtime~main.js.map": "/batch-geocoding-using-react/static/js/runtime~main.59d26c9b.js.map",
+    "static/css/2.8f3cb0f3.chunk.css": "/batch-geocoding-using-react/static/css/2.8f3cb0f3.chunk.css",
+    "static/js/2.7a1b8180.chunk.js": "/batch-geocoding-using-react/static/js/2.7a1b8180.chunk.js",
+    "static/js/2.7a1b8180.chunk.js.map": "/batch-geocoding-using-react/static/js/2.7a1b8180.chunk.js.map",
+    "index.html": "/batch-geocoding-using-react/index.html",
+    "precache-manifest.55ca10c77361728ecee661046dd1809a.js": "/batch-geocoding-using-react/precache-manifest.55ca10c77361728ecee661046dd1809a.js",
+    "service-worker.js": "/batch-geocoding-using-react/service-worker.js",
+    "static/css/2.8f3cb0f3.chunk.css.map": "/batch-geocoding-using-react/static/css/2.8f3cb0f3.chunk.css.map"
   }
 }
